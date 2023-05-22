@@ -1,7 +1,9 @@
 import matplotlib.pyplot as plt
 # create a list
 costs = [1, 8, 15, 7, 5, 14, 43, 40]
-# print the list
+# sort the list
+costs.sort()
+# print the sorted list
 print(costs)
 # draw a bar plot
 fig, ax = plt.subplots()
