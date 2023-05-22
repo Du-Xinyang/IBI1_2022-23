@@ -28,4 +28,4 @@ for term in terms1:
        defstrs.append(defstr.childNodes[0].data)
        childNodes.append(len(find_is_a(id.childNodes[0].data)))
 df = pd.DataFrame({'id': ids, 'name': names, 'definition': defstrs, 'childnodes': childNodes})
-df.to_excel('Gene-Ontology.xlsx', index=False)
+df.to_excel('autophagosome.xlsx', index=False)
