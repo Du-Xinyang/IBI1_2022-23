@@ -1,8 +1,8 @@
 # the findings: 1.the alignment score for human and cat:3717.0, the percentage:0.8521739130434782
 #               2.the alignment score for human and mouse:3579.0.0, the percentage:8211180124223603%
 #               3.the alignment score for cat and mouse：3592.0， the percentage:0.817391304347826%
-# the sequences of cat and mouse are most closely related
-# We can make biological or evolutionary interpretation from these data that cat and mouse have closer genetic relationship though cat is the natural enemy of mouse. And human has closer genetic relationship with mouse that cat.
+# the sequences of human and cat are most closely related
+# We can make biological or evolutionary interpretation from these data that human has a closer genetic relationship with cat than mouse.
 
 # use the blosum package to access blosum62 matrix
 # use itertools to combine three sequences
