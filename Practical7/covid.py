@@ -5,7 +5,7 @@ import mpl_toolkits
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
-# The code for importing the .csv file
+# write The code for importing the .csv file
 os.chdir("D:/python-learn/02_python入门语法/IBI1")
 covid_data = pd.read_csv("full_data.csv")
 print(covid_data.head(7))
