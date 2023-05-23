@@ -1,3 +1,4 @@
+# import regular expression package
 import re
 seq = 'ATGCAATCGACTACGATCTGAGAGGGCCTAA'
 # find the start codon
