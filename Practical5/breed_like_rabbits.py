@@ -10,3 +10,4 @@ for n in range(1,100):
     else:
          print ("the number of generations required to exceed 100 rabbits is",n)
          break
+# At 7 generation, over 100 rabbits have been born
