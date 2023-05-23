@@ -1,12 +1,14 @@
 a = -3.19
 b = -118.24
 c = 116.39
-d = a - b
-e = c - a
+d = abs(a - b)
+e = abs(c - a)
 if d < e:
   print ("Rob traveled further to Haining")
-else:
+elif:
      print ("Rob traveled further to Los Angeles")
+else:
+     print ("the same distance")
 #Rob traveled further to Haining.
 
 X = True
